@@ -1,8 +1,27 @@
+<script setup>
+import TheHeader from './components/TheHeader.vue';
+import TheFooter from './components/TheFooter.vue';
+</script>
+
 <template>
   <div class="wrap">
-    <div>ヘッダー</div>
+    <TheHeader />
     <main class="main">メイン</main>
-    <div>フッター</div>
+    <TheFooter />
   </div>
 </template>
-<style></style>
+<style>
+.wrap {
+  display: flex;
+  flex-direction: column;
+  align-items: 100vh;
+  width: 370px;
+  margin: 0 auto;
+  font-family: sans-serif;
+}
+
+.main {
+  flex: 1;
+  width: 100%;
+}
+</style>
