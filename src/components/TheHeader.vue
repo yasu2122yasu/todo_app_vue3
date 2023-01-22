@@ -1,11 +1,11 @@
 <template>
-  <h1 class="title"></h1>
+  <h1 class="title">タイトル</h1>
 </template>
 
 <style>
 .title {
   width: 100%;
-  background-color: #e3f2fd;
+  /* background-color: #e3f2fd; */
   text-align: center;
   font-size: 32px;
   font-weight: bold;
